@@ -4,6 +4,7 @@ import tensorflow as tf
 from transformers import TFBertModel, BertTokenizer
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 from sklearn.model_selection import train_test_split
+tf.__version__
 import os
 import shutil
 import tensorflow_hub as hub
